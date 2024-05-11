@@ -1,0 +1,25 @@
+.Popular{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    height: 90vh;
+}
+.Popular h1{
+  color: black;
+  font-size: 3rem;
+
+  
+}
+.Popular hr{
+    width: 20rem;
+    height: 0.2em;
+    border-radius: 1rem;
+    background-color: #ef9611;
+}
+.Popular-item{
+    display: flex;
+    margin-top: 2rem;
+    gap: 4rem;
+    padding: 1rem;
+}
