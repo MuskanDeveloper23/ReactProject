@@ -14,10 +14,10 @@ import Popular from './components/Popular/Popular'; // Import Popular component 
 import Offers from './components/offers/offers'; // Import Offers component for homepage
 import NewCollections from './components/newCollections/newCollections'; // Import NewCollections component for homepage
 import NewsLetter from './components/NewsLetter/NewsLetter'; // Import NewsLetter component for homepage
-import men_banner from './components/Assets/men7.jpg';
-import women_banner from './components/Assets/beauti.jpg';
+import men_banner from './components/Assets/all2.png';
+import Service from './components/Assets/java2.jpg';
 import kids_banner from './components/Assets/baby3.jpeg';
-
+import Benefits from './components/Assets/benefits.jpg';
 function App() {
   return (
     <div>
@@ -34,22 +34,37 @@ function App() {
               <Offers />
               <NewCollections />
               <NewsLetter />
+             
             </>
           }
         />
         {/* Routes for other pages */}
         <Route
-          path='/mens'
-          element={<Shopcategory banner={men_banner} category='men' />}
+          path='/about us'
+          element={<Shopcategory banner={men_banner} category='about us' />}
         />
         <Route
-          path='/womens'
-          element={<Shopcategory banner={women_banner} category='women' />}
+          path='/Services'
+          element={<Shopcategory banner={Service} category='Services' />}
         />
         <Route
-          path='/kids'
-          element={<Shopcategory banner={kids_banner} category='kid' />}
+          path='/benefits'
+          element={<Shopcategory banner={Benefits} category='benefits' />}
         />
+         <Route
+          path='/Services'
+          element={<Shopcategory banner={kids_banner} category='Services' />}
+        />
+        <Route
+        path='/enrollment'
+        element={<Shopcategory banner={kids_banner} category='enrollment' />}
+      />
+
+         <Route
+          path='/contact us'
+          element={<Shopcategory banner={kids_banner} category='contacts us' />}
+        />
+       
         <Route path='/product' element={<Product />} />
         <Route path='/card' element={<Cart />} />
         <Route path='/login' element={<Loginsingup />} />

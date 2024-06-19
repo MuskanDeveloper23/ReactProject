@@ -1,9 +1,5 @@
 
 import React from 'react'
-
-
-
-
 import './footer.css'
 import footer_logo from '../Assets/shop.png'
 import pintester from '../Assets/pin2.png'

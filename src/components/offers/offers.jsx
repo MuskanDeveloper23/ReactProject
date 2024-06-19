@@ -5,9 +5,10 @@
 const offers = () => {
     return(
         <div className="offers">
-        <div className="offers-left">
-         <h1>Execusive</h1>
-         <h1>Offers For You </h1>
+        <div className="offers-left ">
+            
+         <h1 className='h1'>Execusive</h1>
+         <h1 className='h2'>Offers For You </h1>
          <p>ONLY ON BEST SELLERS PRODUCTS</p>
          <button> Check now </button>
         </div>

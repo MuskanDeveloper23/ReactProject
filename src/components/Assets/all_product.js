@@ -20,7 +20,7 @@ import p23_img from './u3.jpg'
 let all_product = [
     {
         id:13,
-        name:"striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        name:"developer students",
         image:p13_img,
         new_price:50.00,
         old_price: 80.50,

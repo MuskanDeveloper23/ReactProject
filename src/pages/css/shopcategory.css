@@ -1,48 +1,760 @@
-.shopcategory-banner{
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.shopcategory-banner {
+  display: block;
+  margin: 3rem auto;
+  width: 82%;
+  height: 30rem;
+}
+
+.shopcategory-indexSort {
+  display: flex;
+  margin: 0rem 9rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shopcategory-sort {
+  padding: 1rem 2rem;
+  border-radius: 4rem;
+  border: 1px solid #888;
+}
+
+.shopcategory-indexSort p span {
+  font-weight: 500;
+}
+
+.shopcategory-sort img {
+  width: 1rem;
+  align-items: center;
+}
+
+.shopcategory-products {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  row-gap: 2rem;
+  margin-bottom: 6rem;
+
+}
+
+.shopcategory-products .innerbox {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  margin: 2rem 8rem;
+  column-gap: 2rem;
+}
+
+.shopcategory-products .inner_box {
+  border: 2px solid #e8e2e2;
+  width: 17rem;
+  background-color: #e8e2e2;
+  padding: 1rem;
+  box-shadow:  .1em 0.1em 0.5em 0.2em #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.shopcategory-products .inner_box img {
+  width: 100%;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.shopcategory-products .inner_box:hover img{
+  box-shadow:  .1em 0.1em 0.5em 0.2em #000;
+  scale: 1.02;
+}
+ .shopcategory-products .inner_box:hover{
+  scale: 1.02;
+  box-shadow:  .1em 0.1em 0.5em 0.2em #000;
+  }
+
+
+.shopcategory-products .inner_box h3 {
+  font-size: 1.4rem;
+  padding: 1rem;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+}
+
+.shopcategory-products .inner_box p {
+
+  padding: 1rem;
+  width: 100%;
+}
+
+.shopcategory-products .second-box {
+  width: 100%;
+  overflow: hidden;
+  transition-duration: 2s;
+  transition-property: transform;
+}
+
+.shopcategory-products .second-box:hover {
+
+  transform: rotate(360deg);
+  box-shadow: 1px solid #000;
+
+
+}
+
+.shopcategory-products .second-box img {
+  width: 100%;
+  overflow: hidden;
+  
+}
+
+.shopcategory-products .second-box h3 {
+  width: 80%;
+
+  padding: 15rem 1rem;
+}
+
+.shopcategory-products .second-box h3 a {
+  color: rgb(245, 237, 237);
+  text-decoration: none;
+  margin-top: 5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.shopcategory-products .second-box h3 a:hover {
+  color: #fff;
+  text-decoration: underline;
+  margin-top: 5rem;
+}
+
+.shopcategory-loadmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(226, 219, 219);
+  font-size: 1rem;
+  width: 4rem;
+  height: 2rem;
+  color: #626161;
+  border-radius: 7rem;
+  padding: 1rem 4rem;
+  margin: 10rem auto;
+  margin-top: -5rem;
+
+}
+
+.about-us {
+  width: 100%;
+  margin-bottom: 2rem;
+  justify-content: center;
+   align-items: center;
+
+}
+
+.about-us hr {
+  width: 10rem;
+  height: 0.2em;
+  border-radius: 1rem;
+  background-color: #ef9611;
+  justify-content: center;
+  align-items: center;
+  margin-left: 45%;
+}
+
+.about-us h1 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  width: 100%;
+}
+
+.about-us .pera {
+  width: 100%;
+  line-height: 2rem;
+  margin-top: 1rem;
+  padding-left: 7%;
+  text-align: justify;
+}
+
+.about-us .pera p {
+  padding: 0.5rem;
+  text-align: justify;
+  width: 94%;
+}
+
+
+/**************** Service ***************/
+.common-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1rem 7rem;
+
+}
+
+.common-box span {
+  color: blue;
+}
+
+.common-box .common1 {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.common-box .common1 img {
+  width: 45rem;
+  border-radius: 1rem;
+  margin: 2rem;
+}
+
+.common-box .common1 p {
+  width: 90%;
+  line-height: 1.7rem;
+  text-align: right;
+}
+
+.common-box .common2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.common-box .common2 img {
+  width: 33rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+
+}
+
+.common-box .common2 p {
+  line-height: 1.7rem;
+}
+
+
+/* Extra small devices (phones, less than 576px) */
+
+@media only screen and (min-width:310px) and (max-width: 575.98px) {
+
+  .shopcategory-banner {
     display: block;
     margin: 3rem auto;
-    width: 82%;
-    height: 30rem;
-}
-.shopcategory-indexSort{
-    display: flex;
-    margin: 0rem 9rem;
-    justify-content: space-between;
-    align-items: center;
-}
+    width: 95%;
+    height: 15rem;
+  }
 
-.shopcategory-sort{
-    padding: 1rem 2rem;
-    border-radius: 4rem;
-    border: 1px solid #888;
-}
 
-.shopcategory-indexSort p span{
-    font-weight: 500;
-}
-.shopcategory-sort img{
-    width: 1rem;
-    align-items: center;
-}
-.shopcategory-products{
-    display:  grid;
-    grid-template-columns: repeat(4, 3fr);
-    margin: 2rem 8rem;
-    row-gap: 8rem;
-    
-}
-.shopcategory-loadmore{
-    display: flex;
+  .about-us {
+    width: 100%;
     justify-content: center;
+    padding-left: 2rem;
+    text-align: center;
     align-items: center;
-    background-color: rgb(226, 219, 219);
-   font-size: 1rem;
-    width: 4rem;
-    height: 2rem;
-    color: #626161;
-    border-radius: 7rem;
-    padding: 1rem 4rem;
-     margin: 10rem auto;
-     margin-top: -5rem;
-   
+  }
+
+  .about-us hr {
+    width: 6rem;
+    height: 0.2em;
+    border-radius: 1rem;
+    background-color: #ef9611;
+    text-align: center;
+    align-items: center;
+    margin-left: 4.5rem;
+  }
+
+  .about-us h1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    width: 100%;
+  }
+
+  .about-us .pera {
+    background-size: cover;
+    line-height: 2rem;
+    margin-top: 1rem;
+    padding: 0;
+  }
+
+  .about-us .pera p {
+    text-align: justify;
+  }
+
+  .shopcategory-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .shopcategory-products .innerbox {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
+  .shopcategory-products .second-box {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+    margin-right: 0rem;
+
+  }
+/************************************************************/
+.common-box {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  justify-content: center;
+  padding:0;
+  text-align: center;
+  align-items: center;
+  margin:0px;
+
+}
+
+.common-box span {
+  color: blue;
+}
+
+.common-box .common1 {
+  display: flex;
+  flex-direction: column;
+  
+}
+.common1 .pera2{
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.common1 .pera2 p{
+  text-align: justify;
+ background-size: cover;
+  width: 100%;
+}
+
+.common-box .common1 img {
+  max-width: 80vw;
+  border-radius: 1rem;
+
+}
+
+
+.common-box .common2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.common-box .common2 img {
+  width: 100%;
+  border-radius: 1rem;
+  margin-top: 2rem;
+
+}
+
+.common-box .common2 p{
+   background-size: cover;
+  text-align: justify;
+  
+}
+
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .shopcategory-banner {
+    display: block;
+    margin: 3rem auto;
+    width: 95%;
+    height: 15rem;
+  }
+
+
+  .about-us {
+    width: 100%;
+    justify-content: center;
+    padding-left: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .about-us hr {
+    width: 8rem;
+    height: 0.2em;
+    border-radius: 1rem;
+    background-color: #ef9611;
+    text-align: center;
+    align-items: center;
+  }
+
+  .about-us h1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    width: 100%;
+  }
+
+  .about-us .pera {
+    width: 100%;
+    line-height: 2rem;
+    margin-top: 1rem;
+    padding: 0;
+  }
+
+  .about-us .pera p {
+    text-align: justify;
+  }
+
+  .shopcategory-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .shopcategory-products .innerbox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+  }
+
+  .shopcategory-products .second-box {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+    margin-right: 0rem;
+
+  }
+
+  /*********************************************/
+  .common-box {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    justify-content: center;
+    padding:0;
+    text-align: center;
+    align-items: center;
+    margin:0px;
+  
+  }
+  
+  .common-box span {
+    color: blue;
+  }
+  
+  .common-box .common1 {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .common1 .pera2{
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  .common1 .pera2 p{
+    text-align: justify;
+   background-size: cover;
+    width: 100%;
+  }
+  
+  .common-box .common1 img {
+    max-width: 80vw;
+    border-radius: 1rem;
+  
+  }
+  
+  
+  .common-box .common2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .common-box .common2 img {
+    width: 100%;
+    border-radius: 1rem;
+    margin-top: 2rem;
+  
+  }
+  
+  .common-box .common2 p{
+     background-size: cover;
+    text-align: justify;
+    
+  }
+  
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .shopcategory-banner {
+    display: block;
+    margin: 3rem auto;
+    width: 95%;
+    height: 15rem;
+  }
+
+
+  .about-us {
+    width: 100%;
+    justify-content: center;
+    padding-left: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .about-us hr {
+    width: 8rem;
+    height: 0.2em;
+    border-radius: 1rem;
+    background-color: #ef9611;
+    text-align: center;
+    align-items: center;
+  }
+
+  .about-us h1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    width: 100%;
+  }
+
+  .about-us .pera {
+    width: 100%;
+    line-height: 2rem;
+    margin-top: 1rem;
+    padding: 0;
+  }
+
+  .about-us .pera p {
+    text-align: justify;
+  }
+
+  .shopcategory-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .shopcategory-products .innerbox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+  }
+
+  .shopcategory-products .second-box {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+    margin-right: 0rem;
+
+  }
+  
+.shopcategory-products .inner_box {
+  border: 2px solid #e8e2e2;
+  width: 23rem;
+  background-color: #e8e2e2;
+  padding: 0rem;
+}
+
+
+/************************************************************/
+
+.common-box {
+  display: flex;
+  gap: 0rem;
+  padding: 0;
+margin-top: 2rem;
+}
+
+.common-box span {
+  color: blue;
+}
+
+.common-box .common1 {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.common-box .common1 img {
+  max-width: 40vw;
+  border-radius: 1rem;
+  margin: 2rem;
+}
+
+.common-box .common1 p {
+  width: 75%;
+  line-height: 1.7rem;
+  text-align: justify;
+}
+
+.common-box .common2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: -3rem;
+}
+
+.common-box .common2 img {
+  max-width: 44vw;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  
+}
+
+.common-box .common2 p {
+  line-height: 1.7rem;
+  text-align: justify;
+  width: 90%;
+}
+
+}
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .shopcategory-banner {
+    display: block;
+    margin: 3rem auto;
+    width: 95%;
+    height: 15rem;
+  }
+
+
+  .about-us {
+    width: 100%;
+    justify-content: center;
+    padding-left: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .about-us hr {
+    width: 8rem;
+    height: 0.2em;
+    border-radius: 1rem;
+    background-color: #ef9611;
+    text-align: center;
+    align-items: center;
+  }
+
+  .about-us h1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    width: 100%;
+  }
+
+  .about-us .pera {
+    width: 100%;
+    line-height: 2rem;
+    margin-top: 1rem;
+    padding: 0;
+  }
+
+  .about-us .pera p {
+    text-align: justify;
+  }
+
+  .shopcategory-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .shopcategory-products .innerbox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+  }
+
+  .shopcategory-products .second-box {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+    margin-right: 0rem;
+
+  }
+
+
+  /******************************************************************/
+  
+.common-box {
+  display: flex;
+  gap: 0rem;
+  padding: 0;
+margin-top: 2rem;
+}
+
+.common-box span {
+  color: blue;
+}
+
+.common-box .common1 {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.common-box .common1 img {
+  max-width: 40vw;
+  border-radius: 1rem;
+  margin: 2rem;
+}
+
+.common-box .common1 p {
+  width: 75%;
+  line-height: 1.7rem;
+  text-align: justify;
+}
+
+.common-box .common2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: -3rem;
+}
+
+.common-box .common2 img {
+  max-width: 44vw;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  
+}
+
+.common-box .common2 p {
+  line-height: 1.7rem;
+  text-align: justify;
+  width: 90%;
+}
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ 
+.common-box .common1 img {
+  max-width: 45vw;
+  border-radius: 1rem;
+  margin-left: -2rem;
+}
 }
