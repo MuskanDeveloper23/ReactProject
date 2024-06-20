@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactProject/static/css/main.a59f3045.css",
-    "main.js": "/ReactProject/static/js/main.59a529e0.js",
+    "main.css": "/ReactProject/static/css/main.9363f2f7.css",
+    "main.js": "/ReactProject/static/js/main.74dbc0d7.js",
     "static/js/453.aeaa9c9a.chunk.js": "/ReactProject/static/js/453.aeaa9c9a.chunk.js",
     "static/media/j.jpg": "/ReactProject/static/media/j.a0ad85c9cee8852a8cf3.jpg",
     "static/media/student4.jpg": "/ReactProject/static/media/student4.bcaf3294f12d07f40fe6.jpg",
@@ -36,7 +36,6 @@
     "static/media/pm.jpg": "/ReactProject/static/media/pm.82ca4bcf89ae905ffc1b.jpg",
     "static/media/p2.jpg": "/ReactProject/static/media/p2.8775ed3a2534b4bccb48.jpg",
     "static/media/u1.jpg": "/ReactProject/static/media/u1.ba41b5eb3f229f24b71b.jpg",
-    "static/media/icon.png": "/ReactProject/static/media/icon.e9b09087a9cb1f41c7ad.png",
     "static/media/baby3.jpeg": "/ReactProject/static/media/baby3.1df8bc424ac40a1decd4.jpeg",
     "static/media/phython2.png": "/ReactProject/static/media/phython2.4e825b2ac474a32f343b.png",
     "static/media/Web.jpg": "/ReactProject/static/media/Web.31889393ae646666b429.jpg",
@@ -50,12 +49,12 @@
     "static/media/all2.png": "/ReactProject/static/media/all2.69097f66fe1d861bc6a9.png",
     "static/media/A1.png": "/ReactProject/static/media/A1.ca9cb588a821811da316.png",
     "index.html": "/ReactProject/index.html",
-    "main.a59f3045.css.map": "/ReactProject/static/css/main.a59f3045.css.map",
-    "main.59a529e0.js.map": "/ReactProject/static/js/main.59a529e0.js.map",
+    "main.9363f2f7.css.map": "/ReactProject/static/css/main.9363f2f7.css.map",
+    "main.74dbc0d7.js.map": "/ReactProject/static/js/main.74dbc0d7.js.map",
     "453.aeaa9c9a.chunk.js.map": "/ReactProject/static/js/453.aeaa9c9a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a59f3045.css",
-    "static/js/main.59a529e0.js"
+    "static/css/main.9363f2f7.css",
+    "static/js/main.74dbc0d7.js"
   ]
 }
