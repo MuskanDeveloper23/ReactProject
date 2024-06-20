@@ -26,7 +26,7 @@ function App() {
         {/* Route for homepage */}
         <Route
           exact
-          path='/'
+          path='/home'
           element={
             <>
               <Hero />

@@ -89,9 +89,9 @@
     }
     
     .hero-left h2{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         padding-top: 1.2rem;
-
+        font-weight: bold;
     }
     .hero-left .pera{
         display: flex;
@@ -101,7 +101,7 @@
     }
     .hero-left .pera p{
         color:black;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
        font-weight: 600;
        text-align: center;
        align-items: center;
@@ -111,12 +111,11 @@
     }
     
     .hero-right img{
-     width: 18rem;
-        padding-top: 2rem;
-        align-items: center;
-        justify-content: center;
-       text-align: center;
-    
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50%;
     }
     .hero-hand-icon{
         display: flex;
@@ -161,6 +160,8 @@
     height: max-content;
       background:  linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
       display: flex;
+      align-items: center;
+      justify-content: center;
   }
   .hero-left{
 
@@ -215,13 +216,14 @@
       gap: 1rem;
       background: rgb(230, 92, 23);
       border-radius: 1.4rem;
-      width: 14rem;
+      width: 10rem;
       padding: 1rem;
       color: antiquewhite;
       cursor: pointer;
+      font-size: 0.7rem;
   }
   .hero-latest-btn img{
-      width: 2rem;
+      width: 1rem;
   }
   
   }
